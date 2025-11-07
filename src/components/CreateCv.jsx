@@ -1,5 +1,5 @@
 import "../styles/createCv.css";
-import CvHeading from "./cvHeading";
+import CvHeading from "./CvHeading";
 import Sidebar from "./Sidebar";
 
 const CreateCv = () => {
