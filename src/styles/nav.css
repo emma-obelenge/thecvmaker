@@ -1,0 +1,25 @@
+nav {
+  margin-left: auto;
+  margin-right: 3rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flex-item {
+  padding: max(0.4rem, 0.4vw) max(1rem, 1vw);
+  text-align: center;
+  font-size: max(1rem, 1.5vw);
+  white-space: nowrap;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav ul li a:hover {
+  /* color: #994ff5; */
+  color: yellow;
+}

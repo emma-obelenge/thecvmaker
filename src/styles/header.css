@@ -1,0 +1,25 @@
+/* Header Section*/
+header {
+  width: max(100%, 100vw);
+  max-height: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #050c17;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+header a {
+  text-decoration: none;
+  color: orange;
+}
+header h1 {
+  font-size: max(1.2rem, 2.5vw);
+  margin: 2rem 0 2rem 3rem;
+}
+h1 > span {
+  color: yellow;
+  font-weight: bolder;
+}
